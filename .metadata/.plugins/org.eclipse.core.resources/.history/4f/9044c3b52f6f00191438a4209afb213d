@@ -1,0 +1,19 @@
+package br.com.bytebank.banco.testes;
+
+public class TesteString {
+
+	public static void main(String[] args) {
+
+		String nome = "WwilliAn";
+//		int a = 1;
+//		nome.replace("A", "a");
+		
+		String outra = nome.replace("W", "ww");
+		String outra = nome.toUpperCase();
+		System.out.println(outra);
+//		
+//		
+		
+	}
+
+}

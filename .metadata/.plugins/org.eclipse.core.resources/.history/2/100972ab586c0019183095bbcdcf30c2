@@ -1,0 +1,21 @@
+
+public class TesteConta {
+
+	public static void main(String[] args) {
+
+		ContaCorrente cc = new ContaCorrente(10, -1);
+		cc.deposita(100.0);
+	
+		ContaPoupanca cp = new ContaPoupanca(222, 222);
+		cp.deposita(200.0);
+		try {
+		cc.transfere(10.0, cp);
+		}catch (SaldoInsulficienteException ex) {
+			System.out.println(ex.getMessage());
+		}
+		
+		System.out.println("Saldo Conta Corrente: "+ cc.getSaldo());
+		System.out.println("Saldo Conta Poupança: "+ cp.getSaldo());
+	}
+
+}

@@ -1,0 +1,29 @@
+package br.com.bytebank.banco.testes;
+
+public class TesteString {
+
+	public static void main(String[] args) {
+
+		String nome = "Alura";
+//		int a = 1;
+//		nome.replace("A", "a");
+		
+		
+		int pos = nome.indexOf("ur");
+		System.out.println(pos);
+		
+		
+		
+		
+//		char c = nome.charAt(1);
+//		System.out.println(c);
+		
+		//String outra = nome.replace("W", "ww");
+//		String outra = nome.toUpperCase();
+//		System.out.println(outra);
+//		
+//		
+		
+	}
+
+}

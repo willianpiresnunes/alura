@@ -1,0 +1,24 @@
+
+public class TesteIR {
+
+	public static void main(String[] args) {
+		
+		double salario = 2300.0;
+		String texto1 = "O IR é de 7,5% e epode deduzir na declaração o valor de R$ 142";
+		double valor1 = 1900.0;
+		double valor2 = 2800.0;
+		
+		if (salario >= valor1) {
+			
+		}else {
+			if (salario <= valor2 ) {
+				System.out.println(texto1);
+				
+			}
+			else {
+				System.out.println("fudeu");
+			}
+		}
+		
+	}
+}

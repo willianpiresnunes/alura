@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;bytebank-encapsulado/TestaGeterESeter.java&apos; to &apos;TestaGetESet.java&apos;" description="Rename resource &apos;TestaGeterESeter.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="TestaGeterESeter.java" name="TestaGetESet.java" stamp="1551399239031" updateReferences="true"/>
+</session>

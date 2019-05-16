@@ -1,0 +1,20 @@
+package teste;
+
+public class TesteTributaveis {
+
+	public static void main(String[] args) {
+
+		modelo.ContaCorrente cc = new modelo.ContaCorrente(222, 333);
+		cc.deposita(100);
+
+		modelo.SeguroDeVida sd = new modelo.SeguroDeVida();
+
+		modelo.CalculadorImposto calc = new modelo.CalculadorImposto();
+		calc.registra(cc);
+		calc.registra(sd);
+
+		System.out.println(calc.getTotalDeImposto());
+	
+	}
+
+}

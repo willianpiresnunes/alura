@@ -1,0 +1,22 @@
+package teste;
+
+public class TesteConta {
+
+	public static void main(String[] args) {
+
+		modelo.ContaCorrente cc = new modelo.ContaCorrente(10, -1);
+		cc.deposita(100.0);
+	
+		modelo.ContaPoupanca cp = new modelo.ContaPoupanca(222, 222);
+		cp.deposita(200.0);
+		try {
+		cc.transfere(10.0, cp);
+		}catch (modelo.SaldoInsulficienteException ex) {
+			System.out.println(ex.getMessage());
+		}
+		
+		System.out.println("Saldo Conta Corrente: "+ cc.getSaldo());
+		System.out.println("Saldo Conta Poupança: "+ cp.getSaldo());
+	}
+
+}

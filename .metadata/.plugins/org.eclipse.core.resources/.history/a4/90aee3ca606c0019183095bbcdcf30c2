@@ -1,0 +1,20 @@
+package br.com.bytebank.banco.teste;
+
+public class TesteTributaveis {
+
+	public static void main(String[] args) {
+
+		br.com.bytebank.banco.modelo.ContaCorrente cc = new br.com.bytebank.banco.modelo.ContaCorrente(222, 333);
+		cc.deposita(100);
+
+		br.com.bytebank.banco.modelo.SeguroDeVida sd = new br.com.bytebank.banco.modelo.SeguroDeVida();
+
+		br.com.bytebank.banco.modelo.CalculadorImposto calc = new br.com.bytebank.banco.modelo.CalculadorImposto();
+		calc.registra(cc);
+		calc.registra(sd);
+
+		System.out.println(calc.getTotalDeImposto());
+	
+	}
+
+}
