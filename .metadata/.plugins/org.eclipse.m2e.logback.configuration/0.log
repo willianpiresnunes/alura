@@ -135,3 +135,4 @@ Caused by: java.lang.Exception: Resource '/teste-automatizado' does not exist.
 	... 62 common frames omitted
 2019-05-05 08:47:49,249 [Worker-2: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2019-05-05 08:56:08,452 [Worker-4: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-05-15 22:10:23,396 [Worker-1: Loading available Gradle versions] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
